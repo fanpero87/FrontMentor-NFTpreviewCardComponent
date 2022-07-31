@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="/src/styles/styles.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+
+</head>
+
+<body>
+  <!-- Container -->
+  <div class="bg-very-dark-blue-main min-h-screen flex items-center justify-center">
+    <!-- Card -->
+    <div class="bg-very-dark-blue-card w-10/12 md:w-80 md:h-5/6 rounded-xl">
+      <!-- Image Section -->
+      <div class="p-8">
+        <img class="rounded-lg" src="src/images/image-equilibrium.jpg" alt="cube">
+      </div>
+
+      <!-- Text Section -->
+      <div class="px-8 pb-8 space-y-4">
+        <h1 class="text-app-white text-2xl font-semibold">
+          Equilibrium #3429
+        </h1>
+        <p class="text-very-dark-blue-line text-lg font-light">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="flex justify-between">
+          <div class="text-app-cyan text-lg font-semibold space-x-2 flex text-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>0.041 ETH</span>
+          </div>
+          <div class="text-very-dark-blue-line text-lg space-x-2 flex font-light text-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>3 days left</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t-2 border-very-dark-blue-line space-x-4 flex items-center justify-center">
+          <div class="w-8">
+            <img class="border-app-white border-2 rounded-full" src="src/images/image-avatar.png" alt="avatar">
+          </div>
+          <p class="text-very-dark-blue-line text-lg font-normal">
+            Creation of <span class="text-app-white">Jules Wyvern</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
